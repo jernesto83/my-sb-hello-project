@@ -1,2 +1,2 @@
 # my-sb-hello-project
-mi primer proyecto de springboot
+Proyecto de springboot al que se agrega funcionalidad de base de datos
