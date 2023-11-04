@@ -12,7 +12,7 @@ import net.ultrasist.capacitacion.chambeaya.api.service.PersonaServiceImpl;
 public class HelloControllerTest {
     @Test
     void testFactorial() {
-        PersonaService hc = new PersonaServiceImpl(new PersonaMapper());
+        PersonaService hc = new PersonaServiceImpl(null);
         assertEquals(hc.fact(5), 120);
         assertNotEquals(hc.fact(5), 12);
     }
